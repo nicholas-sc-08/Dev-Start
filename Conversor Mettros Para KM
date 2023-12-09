@@ -1,6 +1,6 @@
 function converterMetrosParaKm(metros) {
-  let km = metros
-  km = km / 1000
+  let km = metros;
+  km = km / 1000;
   return km
 
 }
