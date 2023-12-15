@@ -5,6 +5,5 @@
     }
 }
 
-// Não modifique as linhas abaixo
 console.log(obtenhaMensagemVotacao(20))
 console.log(obtenhaMensagemVotacao(10))
