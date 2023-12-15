@@ -1,0 +1,9 @@
+function senhaEValida(senha) {
+    console.log(senha)
+let senhaa = senha.trim() 
+if (senhaa.length >= 10 ) {
+    return true
+} else {
+    return false
+}
+} //10 ou mais caracteres para ser verdadeira
