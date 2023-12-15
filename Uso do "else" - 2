@@ -3,7 +3,7 @@ function podeVotar(idade) {
         return true
     } else {
       return false
-    }
+    } 
 }
 console.log(podeVotar(25))
 console.log(podeVotar(13))
