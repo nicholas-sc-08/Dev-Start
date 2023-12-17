@@ -1,0 +1,10 @@
+function eCodigoPromocionalValido(codigo) {
+    console.log(codigo)
+    if (codigo.length >= 5) {
+        return true
+    } else if (codigo.length > 10) {
+        return false
+    } else {
+        return false
+    }
+} // entre 5 a 10 caracteres o código promocional é conciderado válido (true), mais de 10, ou menos de 5 cacrteres será considerado inválido (false)
