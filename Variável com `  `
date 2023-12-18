@@ -1,0 +1,1 @@
+let mensagem = `Olá mundo`
