@@ -1,0 +1,9 @@
+function passou(nota) {
+  if (nota >= 7) {
+    return true
+  } 
+  return false
+}
+console.log(passou(8))
+console.log(passou(10))
+console.log(passou(15))
