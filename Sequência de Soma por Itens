@@ -1,0 +1,13 @@
+let notas = [10, 18, 14, 15]
+
+let soma = 0
+console.log(soma)
+
+soma = soma + notas[0]
+console.log(soma)
+soma = soma + notas[1]
+console.log(soma)
+soma = soma + notas[2]
+console.log(soma)
+soma = soma + notas[3]
+console.log("A soma final é: " + soma)
