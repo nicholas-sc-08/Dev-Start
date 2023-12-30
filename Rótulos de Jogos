@@ -1,0 +1,12 @@
+function obterNumeroDeRotulos(jogo) {
+ return jogo.rotulos.length
+ 
+}
+
+let jogo = {
+    nome: "Banco Imobiliário",
+    rotulos: ["Estratégia", "Dinheiro", "Família"],
+    anoDeLancamento: 1935
+};
+
+console.log(obterNumeroDeRotulos(jogo)); // 3
